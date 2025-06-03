@@ -8,6 +8,14 @@ public class ManualCar {
     private int currentGear;
     private boolean isEngineOn;
 
+    public ManualCar(String brand, String model){
+        this.brand = brand;
+        this.model = model;
+        this.currentGear = 0;
+        this.currentSpeed = 0;
+        this.isEngineOn = false;
+    }
+
     public void startEngine(){
         if (!isEngineOn){
             isEngineOn = true;
