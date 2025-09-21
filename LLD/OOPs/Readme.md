@@ -121,3 +121,51 @@ Object-Oriented Programming (OOPs) is based on **four main principles** that mak
 
 ```
 
+---
+
+### 4. Polymorphism
+- **Definition:** The ability of an object to take many forms.
+- **Purpose:** Allows one interface to be used for multiple implementations.
+- **Example:**
+```java
+  class Bird {
+      void sound() {
+          System.out.println("Some sound");
+      }
+  }
+  
+  class Sparrow extends Bird {
+      void sound() {
+          System.out.println("Chirp Chirp");
+      }
+  }
+
+```
+---
+
+## Summary:
+
+- Encapsulation: Hides data
+- Abstraction: Hides complexity
+- Inheritance: Reuse code
+- Polymorphism: Multiple forms
+
+
+---
+
+
+## Four Pillars of OOPs - Visual Diagram
+```
+                 +----------------+
+                 |  OOPs Concept  |
+                 +----------------+
+                          |
+       -----------------------------------------------------------
+       |                  |                    |                 |
++----------------+ +----------------+ +----------------+ +----------------+
+| Encapsulation  | | Abstraction    | | Inheritance    | | Polymorphism   |
++----------------+ +----------------+ +----------------+ +----------------+
+| Hides data     | | Hides          | | Reuses code    | | Many forms of  |
+| and logic      | | complexity     | |                | | objects        |
++----------------+ +----------------+ +----------------+ +----------------+
+```
