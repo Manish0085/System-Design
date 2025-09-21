@@ -55,3 +55,48 @@ class Car {
 
 ```
 
+---
+
+# Four Pillars of OOPs
+
+Object-Oriented Programming (OOPs) is based on **four main principles** that make programs modular, reusable, and easy to maintain.
+
+---
+
+## 1. Encapsulation
+- **Definition:** The process of wrapping data (variables) and methods (functions) into a single unit called a **class**.
+- **Purpose:** Protects data from unauthorized access and hides internal implementation details.
+- **Example:**
+```java
+  class BankAccount {
+      private double balance; // data is hidden
+
+      public void deposit(double amount) {
+          balance += amount;
+      }
+
+      public double getBalance() {
+          return balance;
+      }
+  }
+```
+
+---
+
+## 2. Abstraction
+- **Definition:** Hiding the complex implementation and showing only the essential features to the user.
+- **Purpose:** Reduces complexity and allows focusing on what an object does, not how it does it.
+- **Example:**
+```java
+  abstract class Vehicle {
+      abstract void start();
+  }
+  
+  class Car extends Vehicle {
+      void start() {
+          System.out.println("Car is starting");
+      }
+  }
+
+```
+
