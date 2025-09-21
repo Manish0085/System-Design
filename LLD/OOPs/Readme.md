@@ -100,3 +100,24 @@ Object-Oriented Programming (OOPs) is based on **four main principles** that mak
 
 ```
 
+---
+
+## 3. Inheritance
+- **Definition:** The ability of one class (child/subclass) to acquire the properties and behavior of another class (parent/superclass).
+- **Purpose:** Promotes code reusability and hierarchical classification.
+- **Example:**
+```java
+  class Animal {
+    void eat() {
+      System.out.println("Eating");
+    }
+  }
+  
+  class Dog extends Animal {
+    void bark() {
+      System.out.println("Barking");
+    }
+  }
+
+```
+
