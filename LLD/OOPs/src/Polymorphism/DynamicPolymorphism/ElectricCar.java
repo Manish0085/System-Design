@@ -1,6 +1,6 @@
-package Polymorphism;
+package Polymorphism.DynamicPolymorphism;
 
-public class ElectricCar extends Car{
+public class ElectricCar extends Car {
 
 
     private int battteryLevel;
