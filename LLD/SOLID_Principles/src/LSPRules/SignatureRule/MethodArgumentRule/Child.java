@@ -1,4 +1,4 @@
-package LSPRules.SignatureRule.ReturnTypeRule.MethodArgumentRule;
+package LSPRules.SignatureRule.MethodArgumentRule;
 
 
 public class Child extends Parent {

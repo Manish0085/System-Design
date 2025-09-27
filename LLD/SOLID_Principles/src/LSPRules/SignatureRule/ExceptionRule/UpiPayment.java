@@ -1,4 +1,4 @@
-package LSPRules.SignatureRule.ReturnTypeRule.ExceptionRule;
+package LSPRules.SignatureRule.ExceptionRule;
 
 public class UpiPayment extends Payment{
 
