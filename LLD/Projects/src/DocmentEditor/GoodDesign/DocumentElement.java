@@ -1,4 +1,6 @@
 package DocmentEditor.GoodDesign;
 
-public class DocumentElement {
+public interface DocumentElement {
+
+    String render();
 }

@@ -41,7 +41,7 @@ public class DcoumentEditorClient extends JFrame {
         DocumentEditor editor = new DocumentEditor();
 
         editor.addText("Hello, world!");
-        editor.addImage("D:\\System Design\\LLD\\Projects\\src\\resource\\Screenshot 2025-09-22 104832.png"); // Make sure picture.jpg exists in project folder
+        editor.addImage("<you-image-path>"); // Make sure picture.jpg exists in project folder
         editor.addText("This is a document editor.");
 
         System.out.println(editor.renderDoc());

@@ -1,0 +1,4 @@
+Hello Dosto
+This is a real-world document editor example.
+	Indented text after a tab space.
+[Image: <your-image-path]
