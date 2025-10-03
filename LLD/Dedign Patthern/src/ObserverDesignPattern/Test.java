@@ -9,8 +9,11 @@ public class Test {
         Subscriber sub2 = new Subscriber("Aditya", channel);
         Subscriber sub3 = new Subscriber("Tanya", channel);
 
-        channel.uploadVideo("Observer Design Pattern");
         channel.subscribe(sub1);
+        channel.subscribe(sub3);
+        channel.subscribe(sub2);
+
+        channel.uploadVideo("Observer Design Pattern");
 
         // Aditya unsubscribe the channel
         channel.unSubscribe(sub2);
