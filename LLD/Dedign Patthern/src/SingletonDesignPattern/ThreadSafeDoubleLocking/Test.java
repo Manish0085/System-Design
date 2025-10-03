@@ -1,4 +1,4 @@
-package FactoryDesigPattern.SingletonDesignPattern.ThreadSafeDoubleLocking;
+package SingletonDesignPattern.ThreadSafeDoubleLocking;
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package FactoryDesigPattern.SingletonDesignPattern.FollowSingleton;
+package SingletonDesignPattern.FollowSingleton;
 
 public class Singleton {
 

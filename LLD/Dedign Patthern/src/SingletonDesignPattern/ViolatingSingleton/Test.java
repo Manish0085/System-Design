@@ -1,4 +1,4 @@
-package FactoryDesigPattern.SingletonDesignPattern.ViolatingSingleton;
+package SingletonDesignPattern.ViolatingSingleton;
 
 public class Test {
 

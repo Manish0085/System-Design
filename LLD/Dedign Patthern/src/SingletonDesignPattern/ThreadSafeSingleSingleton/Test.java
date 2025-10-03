@@ -1,4 +1,4 @@
-package FactoryDesigPattern.SingletonDesignPattern.ThreadSafeSingleSingleton;
+package SingletonDesignPattern.ThreadSafeSingleSingleton;
 
 public class Test {
 
